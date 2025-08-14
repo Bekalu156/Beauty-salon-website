@@ -5,13 +5,15 @@
 }
 
 body {
-     font-family: "Playwrite AU QLD", cursive;
+    font-family: "Playwrite AU QLD", cursive;
     background: url(img/A\ pink\ background\ with\ a\ set\ of\ makeup\ and\ a\ pink\ lip\ gloss_\ _\ Premium\ Photo.jpeg) no-repeat center center fixed;
     background-size: cover;
 }
 
 header {
     background-color: rgba(255, 192, 203, 0.8);
+    padding-bottom: 10px;
+    border-radius: 20px;
     padding: 20px;
     text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -85,7 +87,7 @@ nav ul li a:hover {
     height: auto;
     border-radius: 10px;
     margin-left: 60%;
-    margin-top: -30%;
+    margin-top: -25%;
     rotate: 10deg;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -353,6 +355,288 @@ nav ul li a:hover {
   }
 }
 
+.Testimonials {
+    background-color: rgba(245, 220, 224, 0.8);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.Testimonials h2 {
+    font-size: 2.5em;
+    color: #ff69b4;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.Testimonials p {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.testimonial-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.testimonial1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}    
+.testimonial1 img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.testimonial1 p {
+    font-size: 1.1em;
+    color: #333;
+    text-align: center;
+    max-width: 250px;
+}
+.testimonial1 h3 {
+    font-size: 1.2em;
+    color: #ff69b4;
+    margin-top: 10px;
+}
+
+.testimonial2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+}
+  
+.testimonial2 img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.testimonial2 p {
+    font-size: 1.1em;
+    color: #333;
+    text-align: center;
+    max-width: 250px;
+}
+.testimonial2 h3 {
+    font-size: 1.2em;
+    color: #ff69b4;
+    margin-top: 10px;
+}
+
+.testimonial3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.testimonial3 img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.testimonial3 p {
+    font-size: 1.1em;
+    color: #333;
+    text-align: center;
+    max-width: 250px;
+}
+.testimonial3 h3 {
+    font-size: 1.2em;
+    color: #ff69b4;
+    margin-top: 10px;
+}
 
 
+.contact {
+    background-color: rgba(245, 220, 224, 0.8);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact h2 {
+    font-size: 2.5em;
+    color: #ff69b4;
+    margin-bottom: 10px;
+    margin-left: 10%;
+}
+
+.contact p {
+    width: 30%;
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 20px;
+    margin-left: 10%;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+
+.contact form input,
+.contact form textarea {
+    width: 50%;
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.contact form input:focus,
+.contact form textarea:focus {
+    border-color: #ff69b4;
+    outline: none;
+}
+
+.contact form button {
+    width: 15%;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 7px;
+    transition: background-color 0.3s ease;
+}
+.contact form button:hover {
+    background-color: #ff1493;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50%;
+    margin-top: -40%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+
+.contact-info h3 {
+    font-size: 2em;
+    color: #ff69b4;
+    margin-bottom: 10px;
+}
+.contact-info p {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.contact-info a {
+    color: #ff69b4;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.contact-info a:hover {
+    color: #ff1493;
+}
+
+.contact-info iframe {
+    width: 50%;
+    height: 300px;
+    border: none;
+    border-radius: 10px;
+    margin-top: -40%;
+    margin-left: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.BookNow {
+    background-color: #ff98cc;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.BookNow h1 {
+    font-size: 2.5em;
+    color: #ff1493;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.BookNow p {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.BookNow form {
+    align-items: center;
+}
+
+.BookNow form input,
+.BookNow form select {
+    width: 50%;
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.BookNow form input:focus,
+.BookNow form select:focus {
+    border-color: #ff69b4;
+    outline: none;
+}
+
+.BookNow form .button {
+    width: 15%;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 40%;
+    font-size: 1em;
+    border-radius: 7px;
+    transition: background-color 0.3s ease;
+}
+
+.BookNow form .button:hover {
+    background-color: #ff1493;
+}
+
+.BookNow .second-input{
+    margin-left: 55%;
+    margin-top: -112px;
+}
+
+.BookNow .forth-input {
+    margin-left: 55%;
+    margin-top: -112px;
+}
+
+.BookNow .first-input {
+    margin-left: 15%;
+}
+
+.BookNow .third-input {
+    margin-left: 15%;
+}   
     
